@@ -1,25 +1,194 @@
-
-
-#main{
-width: 100%;
-height: auto; overflow: hidden;
-border: 0px solid #000;
-margin: auto;
+main{
+    position: relative;
+    top: 60px;
 }
 
-header{
-width: 100%;
-height: 120px;
+.content-one{
+    width: 100%;
+}
 
+.content-portada{
+    width: 100%;
+    height: 600px;
+
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+#container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+
+#centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+  
+
+@media screen and (max-width:1500px){
+    .content-portada{
+        background-size: 2000px;
+    }
+}
+
+.content-itemone{
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 60px;
+}
+.image1{
+    width: 28%;
+    padding: 16px;
+    text-align: left;
+}
+
+.content-itemone h4{
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.content-itemone h3{
+    color: white;
+    font-size: 60px;
+}
+
+.content-itemone h2{
+
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+
+}
+
+@media screen and (max-width:800px){
+    .content-itemone{
+        width: 100%;
+    }
+}
+
+/* Segunda parte del content */
+
+.content-two{
+    width: 100%;
+    padding: 40px;
+    background: #f2f2f2;
+}
+.image2{
+    width: 28%;
+    padding: 16px; 
+    text-align: center;
+}
+
+.content-details{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.content-item2{
+    width: 300px;
+    text-align: center;
+    margin: 20px;
+
+}
+
+/* tercera parte Content */
+
+.content-three{
+    width: 100%;
+    background: #f7f7f7;
+    padding: 40px;
+    
+}
+
+.image3{
+    width: 35%;
+    padding: 16px;
+    text-align: right;
+}
+
+.content-module{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    
+}
+
+@media screen and (max-width:600px){
+    .content-module{
+        width: 100%;
+    }
+}
+
+/* .content-module h3{
+   
+} */
+
+.content-module img{
+    margin-top: 40px;
+    transition: all 300ms;
+}
+
+.content-module img:hover{
+    transform: rotate(-10deg);
+    transition: all 300ms;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #main{
+    width: 100%;
+    height: auto; overflow: hidden;
+    border: 0px solid #000;
+    margin: auto;
+}
+
+header.myheader{
+    width: 100%;
+    height: 120px;
+    color: red;
 
 }
 
 #logo{
-width: 20%;
-height: 120px;
-float: left;
-
-}
+    width: 50%;
+    height: 20%;
+    float: right;
+} */
 
 /*.menu{
     width:630px;
@@ -33,7 +202,7 @@ float: left;
     display: block;
 }*/
 
-.menu{
+/* .menu{
 max-width: 80%;
 min-height: 50px;
 background-color: #a5b0b6;
@@ -66,10 +235,10 @@ border: 0px solid #ccc;
 font-family: Arial;
 font-size: 18px;
 
-}
+} */
 
 
-.menu ul ul {
+/* .menu ul ul {
     display: none;
     position: absolute;
 }
@@ -138,4 +307,4 @@ transform: background 1s, color 1s;
 #fin{
     width: 1100px;
     color: blue;
-}
+} */
